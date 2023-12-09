@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { GlobalHeader } from "./components/globalHeader/GlobalHeader";
 
-function App() {
+// 1. LogIn -
+// 2. Home Page -
+// 3. Sign Up -
+
+export default function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GlobalHeader />
+      
+      <br />
+      <div className="joybell">
+        <h5>Joyous Bells: Celebrating Christmas Cheer.</h5>
+        <button className="knowmorebutton">Know More</button>
+      </div>
     </div>
   );
 }
 
-export default App;
