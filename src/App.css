@@ -2,20 +2,3 @@
   text-align: center;
 }
 
-.joybell {
-  height: 80px;
-  background: #1e3932;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 125px;
-  color: white;
-}
-
-.knowmorebutton {
-  background: transparent;
-  border: 2px solid white;
-  color: white;
-  padding: 7.5px;
-  border-radius: 20px;
-}
