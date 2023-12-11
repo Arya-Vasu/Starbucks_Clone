@@ -1,3 +1,37 @@
 .homepage {
-    background: greenyellow;
+    /* background: greenyellow; */
+}
+.circularCardContainer {
+    display: flex;
+    width: min-content;
+}
+.h2HeadingContainer {
+   display: flex;
+   /* background: red; */
+   padding: 0 40px 0 40px;
+}
+.h2Heading {
+    color: #1e3932;
+    padding-left: 0.35em;
+    font-weight: 700;
+}
+.recommendedTopContainer{
+    background: #edebe9;
+    width: '100%';
+    height: 316px;
+}
+.h2ExtraCSS{
+    justify-content: space-between;
+    align-items: center;
+}
+.scrollContainer{
+    display: flex;
+    overflow-x: scroll;
+    width: '100%';
+    height: '100%';
+}
+.scrollRootContainer{
+    display: flex;
+    padding-left: 45px;
+    padding-right: 40px;
 }
